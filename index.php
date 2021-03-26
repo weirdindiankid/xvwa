@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>XVWA - Xtreme Vulnerable Web Application </title>
+    <title>XVWA - Xtreme Vulnerable Web Application CS 501 T1</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">

@@ -1,8 +1,7 @@
 <div class="list-group">
-    <a href="#" class="list-group-item active">Setup</a>
-    <a href="/xvwa/" class="list-group-item">Home</a>
+    <a href="/xvwa/" class="list-group-item active">Home</a>
     <a href="/xvwa/instruction.php" class="list-group-item">Instructions</a>
-    <a href="/xvwa/setup/" class="list-group-item">Setup / Reset</a>
+    <a href="/xvwa/setup/" class="list-group-item">Setup/Reset</a>
 </div>
 <div class="list-group">
     <a href="#" class="list-group-item active">Attacks</a>
