@@ -28,6 +28,7 @@
                    <input class="form-control" width="50%" placeholder="Item Name" name="item" required="required"/><br>
                  <textarea class="form-control" placeholder="Description" rows="3" name="desc" required="required"></textarea><br>
                  <input class="form-control" width="50%" placeholder="Category" name="categ" required="required"/> <br>
+                 <input type="hidden" name="upload_submitted" value="1" />
                  <input class="form-control" width="50%" placeholder="Price" name="price" required="required"/><br/>
 
                  <div align="right"> <button class="btn btn-default" type="submit">Submit Button</button></div>
@@ -96,8 +97,10 @@
                 }
               }
             }else{
-              //enter full information 
-               echo "<h4><b><font color='red'>There was an error uploading the file, please try again and make sure all fields are filled.</font></b></h4>";
+              if(isset($_POST["upload_submitted"]) && $_POST["upload_submitted"] == "1") {
+                  //enter full information 
+                   echo "<h4><b><font color='red'>There was an error uploading the file, please try again and make sure all fields are filled.</font></b></h4>";
+              }
             }
             ?>
           </p>
